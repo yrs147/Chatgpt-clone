@@ -34,6 +34,7 @@
   flex: 1;
   border: 1px solid white;
   background-color: #343541;
+  position: relative;
 }
 
 .App-logo {
@@ -47,11 +48,13 @@
   }
 }
 .chat-input-holder{
-  padding: 12px;
+  padding: 24px;
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
 }
 .chat-input{
   background-color: #40414f;
-  width: 100%;
+  width: 95%;
   padding: 12px;
   color: white;
   font-size: 1.25em;
