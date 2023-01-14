@@ -46,6 +46,22 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.chat-input-holder{
+  padding: 12px;
+}
+.chat-input{
+  background-color: #40414f;
+  width: 100%;
+  padding: 12px;
+  color: white;
+  font-size: 1.25em;
+  border-radius: 5px;
+  border-color: none;
+  border: none;
+  margin: 12px;
+  outline: none;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.5);
+}
 
 .App-header {
   background-color: #282c34;
